@@ -7,9 +7,11 @@ var torn_clothes = [
 
 /* YOUR CODE HERE */
 function mend(clothing_item){
-    // return mended_clothing_item;
+    var mended_clothing_item = torn_clothes.replace('/', '');
+    return mended_clothing_item;
 }
 
+function mend("knit swe/ater");
 
 /* PRINT RESULT */
 console.log("--> Finished running mend.js");
